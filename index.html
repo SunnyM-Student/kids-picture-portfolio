@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Picture Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kids Picture Portfolio</h1>
+    </header>
+    <main>
+        <section id="upload-form">
+            <h2>Upload a New Picture</h2>
+            <form id="picture-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="description" placeholder="Description"></textarea>
+                <input type="file" id="image" accept="image/*" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        <section id="picture-gallery">
+            <!-- Pictures will be dynamically added here -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
